@@ -6,6 +6,6 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash \
                 nodejs \
         && rm -rf /var/lib/apt/lists/* \
 	&& npm install --global bower \
-	&&  # echo '{ "allow_root": true }' > /root/.bowerrc
+	&& echo '{ "allow_root": true }' > /root/.bowerrc
 
 
